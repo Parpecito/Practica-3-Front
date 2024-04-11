@@ -26,7 +26,7 @@
     }
 
 }
-@media (max-width: 768px) {
+@media (300px<width<900px) {
     .menu{
         display: flex;
         justify-content: flex-end;

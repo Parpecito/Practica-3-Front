@@ -87,7 +87,7 @@
     background-color: rgb(233, 18, 186);
 }
 
-@media (max-width: 1300px) {
+@media (300px<width<900px) {
     .principal  {
         background-color: rgb(40, 219, 195);
         flex-direction: column;
