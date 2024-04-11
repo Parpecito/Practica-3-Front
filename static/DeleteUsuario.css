@@ -1,0 +1,39 @@
+.delete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #29e46d;
+    padding: 120px;
+    border-radius: 30px;
+
+    h1{
+        font-size: 30px;
+        font-weight: bold;
+        color: #209e89;
+        background-color: chocolate;
+        padding: 10px;
+        border-radius: 10px;
+
+    }
+    input{
+        width: 50%;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 10px;
+        border: 5px solid #209e89;
+        background-color: rgb(160, 122, 17);
+        color: white;
+        cursor: e-resize
+
+    }
+    button{
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 50px;
+        border: 20px solid #209e89;
+        background-color: rgb(196, 21, 158);
+        color: white;
+        cursor: pointer;
+    }
+}

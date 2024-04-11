@@ -1,0 +1,55 @@
+
+.searchName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    background-color: aquamarine;
+    border-radius: 100px;
+    padding: 10px;
+
+    h1{
+        font-size: 50px;
+        animation-name: titulo2;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+    input{
+        margin: 7px;
+        padding: 10px;
+        border-radius: 8px;
+        border: 10px solid black;
+        font-size: 30px;
+        border-radius: 80px;
+        background-color: orangered;
+        color:violet;
+    }
+    button{
+        margin: 7px;
+        padding: 10px;
+        border-radius: 8px;
+        border: 50px solid black;
+        font-size: 80px;
+        border-radius: 80px;
+        background-color: rgb(219, 233, 18);
+        color: rgb(219, 40, 40);
+    }
+}
+@keyframes titulo2{
+    0%{
+        color: rgb(255, 0, 200);
+    }
+    25%{
+        color: blue;
+    }
+    50%{
+        color: rgb(128, 77, 0);
+    }
+    75%{
+        color: rgb(0, 255, 85);
+    }
+    100%{
+        color: rgb(119, 128, 0);
+    }
+}

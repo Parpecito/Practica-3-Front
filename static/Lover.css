@@ -1,0 +1,202 @@
+.Lover{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(204, 11, 204);
+    animation-name: colorcambio;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    h1{
+        animation-name: titulo;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+    span{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-size: 20px;
+        animation-name: cambioSpan;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+    
+    }
+    a{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-size: 20px;
+        
+        background-color: rgb(185, 204, 11);
+        color: rgb(204, 11, 37);
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        text-decoration: none;
+
+    
+    
+    }
+
+}
+@keyframes colorcambio{
+    0%{
+        background-color: rgb(204, 11, 204);
+    }
+    25%{
+        background-color: rgb(10, 172, 145);
+    }
+    50%{
+        background-color: rgb(210, 243, 25);
+    }
+    75%{
+        background-color: rgb(11, 204, 53);
+    }
+    100%{
+        background-color: rgb(204, 11, 204);
+    }
+}
+@keyframes titulo{
+    0%{
+        color: rgb(204, 11, 204);
+    }
+    25%{
+        color: rgb(10, 172, 145);
+    }
+    50%{
+        color: rgb(210, 243, 25);
+    }
+    75%{
+        color: rgb(204, 11, 11);
+    }
+    100%{
+        color: rgb(204, 11, 204);
+    }
+}
+@keyframes cambioSpan{
+    0%{
+        color: rgb(204, 11, 204);
+    }
+    25%{
+        color: rgb(202, 199, 2);
+    }
+    50%{
+        color: rgb(83, 25, 243);
+    }
+    75%{
+        color: rgb(11, 204, 108);
+    }
+    100%{
+        color: rgb(204, 11, 204);
+    }
+}
+.imagen{
+    width: 800px;
+    height: 700px;
+    margin: 3px;
+    
+}
+a:hover{
+    background-color: rgb(17, 204, 11);
+    color: rgb(11, 181, 204);
+}
+
+@media (max-width: 1200px) {
+    a:hover{
+        background-color: rgb(204, 11, 194);
+        color: rgb(10, 83, 7);
+    }
+    .Lover{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(204, 11, 204);
+        animation-name: color;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        h1{
+            animation-name: ti;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+        span{
+            display: flex;
+            font-size: 50px;
+            animation-name: Span;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        
+        }
+        a{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            font-size: 20px;
+            
+            background-color: rgb(185, 204, 11);
+            color: rgb(204, 11, 37);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            text-decoration: none;
+    
+        
+        
+        }
+
+    
+    }
+    @keyframes color{
+        0%{
+            background-color: rgb(69, 11, 204);
+        }
+        25%{
+            background-color: rgb(172, 10, 10);
+        }
+        50%{
+            background-color: rgb(25, 228, 243);
+        }
+        75%{
+            background-color: rgb(197, 69, 10);
+        }
+        100%{
+            background-color: rgb(198, 11, 204);
+        }
+    }
+    @keyframes ti{
+        0%{
+            color: rgb(14, 107, 119);
+        }
+        25%{
+            color: rgb(172, 88, 10);
+        }
+        50%{
+            color: rgb(210, 243, 25);
+        }
+        75%{
+            color: rgb(11, 204, 11);
+        }
+        100%{
+            color: rgb(11, 117, 204);
+        }
+    }
+    @keyframes Span{
+        0%{
+            color: rgb(32, 16, 32);
+        }
+        25%{
+            color: rgb(202, 2, 192);
+        }
+        50%{
+            color: rgb(25, 243, 61);
+        }
+        75%{
+            color: rgb(204, 11, 27);
+        }
+        100%{
+            color: rgb(204, 11, 204);
+        }
+    }
+}

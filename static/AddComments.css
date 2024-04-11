@@ -1,0 +1,76 @@
+.addComments{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 7px solid #6b7280;
+
+    input{
+        padding: 10px;
+        margin: 10px;
+        border: 2px solid #6b7280;
+        background-color: aquamarine;
+        border-radius: 70px;
+
+    }
+    h1{
+        font-size: 40px;
+        color:cornflowerblue;
+    }
+    button{
+        padding: 10px;
+        margin: 10px;
+        border: 2px solid #6b7280;
+        background-color: aquamarine;
+        border-radius: 70px;
+        color: rgb(255, 47, 238);
+    }
+}
+
+@media (min-width: 100px) and (max-width: 900px){
+    .addComments{
+        width: 50%;
+        margin: 0 auto;
+        border: 7px solid aquamarine;
+        padding: 60px;
+        background-color: rgb(236, 235, 221);
+        border-radius: 40px;
+
+        h1{
+            font-size: 30px;
+            animation-name: aber;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+        input{
+            padding: 20px;
+            margin: 20px;
+            border: 8px solid #dd9a0a;
+            background-color: rgb(199, 21, 190);
+            border-radius: 40px;
+        }
+        button{
+            padding: 20px;
+            margin: 20px;
+            border: 12px solidrgb(14, 224, 42)a;
+            background-color: rgb(11, 175, 216);
+            border-radius: 80px;
+            color: rgb(238, 146, 9);
+        }
+
+        @keyframes aber{
+            0%{
+                color: red;
+            }
+            50%{
+                color: yellow;
+            }
+            100%{
+                color: green;
+            }
+        }
+
+    }
+}
