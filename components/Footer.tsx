@@ -5,7 +5,7 @@ const Footer: FunctionComponent=()=>{
         <footer class="footer">
       <p>
         <a
-          href="https://github.com/Nebrija-Programacion/web-frontend/tree/master/tutorial/project-4"
+          href="https://github.com/Parpecito/Practica-3-Front"
           target="_blank"
         >
           Source code

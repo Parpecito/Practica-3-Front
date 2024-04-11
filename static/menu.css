@@ -31,11 +31,11 @@
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        padding: 50px 30px;
+        padding: 10px 15px;
         background-color: #ad0296;
         color: rgb(157, 187, 25);
         box-shadow:-5px 3 4px 0 rgba(0, 0, 0, 0.1);
-        height: 90px;
+        height: 40px;
         border-radius: 50px;
         a{
             display: flex;
@@ -46,7 +46,7 @@
             background-color: rgb(7, 89, 114);
             padding: 20px 20px;
             border-radius: 70px;
-            width: 280px;
+            width: 80px;
             margin: 10px 10px;
         }
         a:hover{
