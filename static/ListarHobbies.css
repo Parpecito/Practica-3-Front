@@ -37,3 +37,43 @@
         font-size: 30px;
     }
 }
+@media (300px<width<900px){
+    .hobbies{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        gap: 20px;
+        h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(233, 18, 186);
+            color: rgb(40, 219, 195);
+            padding: 40px;
+            margin: 20px;
+            border-radius: 10px;
+            font-size: 70px;
+        }
+        ul{
+            list-style-type: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        li{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: rgb(104, 233, 18);
+            color: rgb(219, 127, 40);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            font-size: 30px;
+        }
+    }
+}

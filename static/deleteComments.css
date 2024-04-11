@@ -39,3 +39,46 @@
     75%  {color: green;}
     100% {color: red;}
 }
+@media (300px<width<900px){
+    .deletecomments{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 20px;
+        padding: 70px;
+        background-color: #c3eb14;
+        border: 7px solid #0d57ec;
+    
+        h1{
+            font-size: 40px;
+            animation-name: v;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
+        input{
+            padding: 10px;
+            margin: 10px;
+            border: 2px solid #5c0457;
+            background-color: rgb(142, 255, 127);
+            border-radius: 70px;
+    
+        }
+        button{
+            padding: 10px;
+            margin: 10px;
+            border: 2px solid #6b7280;
+            background-color: rgb(255, 236, 127);
+            border-radius: 70px;
+            color: rgb(255, 47, 47);
+            font-size: 40px;
+        }
+    }
+    @keyframes v {
+        0%   {color: red;}
+        25%  {color: yellow;}
+        50%  {color: blue;}
+        75%  {color: green;}
+        100% {color: red;}
+    }
+}

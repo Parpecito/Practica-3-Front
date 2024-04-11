@@ -1,3 +1,31 @@
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: #21c53c;
+    color: white;
+    box-shadow:-5px 3 4px 0 rgba(0, 0, 0, 0.1);
+    height: 70px;
+    border-radius: 50px;
+    a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+        background-color: rgb(189, 221, 5);
+        padding: 10px 20px;
+        border-radius: 50px;
+        width: 180px;
+        margin: 0 10px;
+    }
+    a:hover{
+        background-color: rgb(189, 221, 5);
+        color: black;
+    }
+
+}
 @media (300px<width<900px){
     .menu{
         display: flex;
