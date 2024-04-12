@@ -7,12 +7,7 @@ const Menu: FunctionComponent=()=>{
             <a href="/" >
                 List Lovers
             </a>
-            <a href="/FiltrarNombreRuta">
-                SearchName
-            </a>
-            <a href="/searchHobbies">
-                List Hobbies
-            </a>
+            
             <a href="/add">
                 SignUp
             </a>
@@ -30,3 +25,11 @@ const Menu: FunctionComponent=()=>{
     )
 }
 export default Menu;
+/*
+<a href="/FiltrarNombreRuta">
+                SearchName
+            </a>
+            <a href="/searchHobbies">
+                List Hobbies
+            </a>
+            */
