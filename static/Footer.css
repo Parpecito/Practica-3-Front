@@ -25,7 +25,7 @@
       padding: 0 20px 0 20px;
     }
   }
-  @media (300px<width<900px){
+  @media only screen and (max-width: 600px){
     .footer {
       background-color: #282c34;
       color: white;
@@ -42,15 +42,16 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      a {
+    }
+      .footer a {
         color: white;
       }
-      a:hover {
+      .footer a:hover {
         color: #61dafb;
       }
-      p {
+      .footer p {
         margin: 0;
         padding: 0 20px 0 20px;
       }
     }
-  }
+  

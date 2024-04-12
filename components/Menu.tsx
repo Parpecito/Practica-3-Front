@@ -22,10 +22,10 @@ const Menu: FunctionComponent=()=>{
             <a href="/deleteUsuarioRuta">
                 Delete User
             </a>
-        
-            <a href="/DeleteCommentsRuta">
-                Delete Comments
+            <a href="/RutaFiltrado">
+                Filtro
             </a>
+    
         </div>
     )
 }

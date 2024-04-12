@@ -10,6 +10,13 @@
 @import url("Footer.css");
 @import url("AddComments.css");
 @import url("deleteComments.css");
+
+.coment{
+  display:flex;
+  flex-direction:column;
+  
+  justify-content:center;
+}
 *,
 *::before,
 *::after {

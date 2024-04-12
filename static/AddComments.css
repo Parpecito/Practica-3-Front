@@ -29,7 +29,7 @@
     }
 }
 
-@media (min-width: 100px) and (max-width: 900px){
+@media only screen and (max-width: 600px){
     .addComments{
         width: 50%;
         margin: 0 auto;
@@ -37,40 +37,39 @@
         padding: 60px;
         background-color: rgb(236, 235, 221);
         border-radius: 40px;
+    }
+    .addComments h1{
+        font-size: 30px;
+        animation-name: aber;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+    .addComments input{
+        padding: 20px;
+        margin: 20px;
+        border: 8px solid #dd9a0a;
+        background-color: rgb(199, 21, 190);
+        border-radius: 40px;
+    }
+    .addComments button{
+        padding: 20px;
+        margin: 20px;
+        border: 12px solidrgb(14, 224, 42)a;
+        background-color: rgb(11, 175, 216);
+        border-radius: 80px;
+        color: rgb(238, 146, 9);
+    }
 
-        h1{
-            font-size: 30px;
-            animation-name: aber;
-            animation-duration: 2s;
-            animation-iteration-count: infinite;
+    @keyframes aber{
+        0%{
+            color: red;
         }
-        input{
-            padding: 20px;
-            margin: 20px;
-            border: 8px solid #dd9a0a;
-            background-color: rgb(199, 21, 190);
-            border-radius: 40px;
+        50%{
+            color: yellow;
         }
-        button{
-            padding: 20px;
-            margin: 20px;
-            border: 12px solidrgb(14, 224, 42)a;
-            background-color: rgb(11, 175, 216);
-            border-radius: 80px;
-            color: rgb(238, 146, 9);
+        100%{
+            color: green;
         }
-
-        @keyframes aber{
-            0%{
-                color: red;
-            }
-            50%{
-                color: yellow;
-            }
-            100%{
-                color: green;
-            }
-        }
+    }
 
     }
-}

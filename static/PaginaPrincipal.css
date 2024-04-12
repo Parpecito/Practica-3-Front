@@ -85,16 +85,16 @@
     background-color: rgb(233, 18, 186);
 }
 
-@media (300px<width<900px){
+@media only screen and (max-width: 600px){
     .principal{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-    
-        ul{
+    }
+        .principal ul{
             list-style-type: none;
         }
-        h1{
+        .principal h1{
             display: flex;
             text-align: center;
             justify-content: center;
@@ -102,7 +102,7 @@
     
         
         }
-        span{
+        .principal span{
             display: flex;
             text-align: center;
             justify-content: center;
@@ -137,24 +137,19 @@
         align-items: center; 
         flex-wrap: wrap;
         margin: 10px;
-    
-        img{
+    }
+        .flex-row img{
             width: 600px;
             height: 300px;
             margin: 3px;
             object-fit: contain;
         }
     
-    }
+    
     .flex-around {
         justify-content: space-around;
     }
     
-    @media (max-width: 768px) {
-        .flex-row  {
-            width: 45%; 
-        }
-    }
     .cuadro{
         background-color: antiquewhite;
         text-decoration: none;
@@ -174,4 +169,4 @@
     .cuadro:hover{
         background-color: rgb(233, 18, 186);
     }
-}
+

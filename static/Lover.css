@@ -102,8 +102,8 @@ a:hover{
     color: rgb(11, 181, 204);
 }
 
-@media (300px<width<900px) {
-    a:hover{
+@media only screen and (max-width: 600px) {
+    .Lover a:hover{
         background-color: rgb(204, 11, 194);
         color: rgb(10, 83, 7);
     }
@@ -116,12 +116,14 @@ a:hover{
         animation-name: color;
         animation-duration: 2s;
         animation-iteration-count: infinite;
-        h1{
+    }
+        .Lover h1{
             animation-name: ti;
             animation-duration: 3s;
             animation-iteration-count: infinite;
         }
-        span{
+    
+        .Lover span{
             display: flex;
             font-size: 50px;
             animation-name: Span;
@@ -129,7 +131,7 @@ a:hover{
             animation-iteration-count: infinite;
         
         }
-        a{
+        .Lover a{
             display: flex;
             text-align: center;
             justify-content: center;
@@ -199,4 +201,3 @@ a:hover{
             color: rgb(204, 11, 204);
         }
     }
-}

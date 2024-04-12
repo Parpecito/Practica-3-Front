@@ -37,7 +37,7 @@
         font-size: 30px;
     }
 }
-@media (300px<width<900px){
+@media only screen and (max-width: 600px){
     .hobbies{
         display: flex;
         flex-direction: column;
@@ -45,7 +45,8 @@
         align-items: center;
         margin-top: 20px;
         gap: 20px;
-        h1{
+    }
+        .hobbies h1{
             display: flex;
             justify-content: center;
             align-items: center;
@@ -56,14 +57,14 @@
             border-radius: 10px;
             font-size: 70px;
         }
-        ul{
+        .hobbies ul{
             list-style-type: none;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             gap: 20px;
         }
-        li{
+        .hobbies li{
             display: flex;
             justify-content: center;
             align-items: center;
@@ -76,4 +77,4 @@
             font-size: 30px;
         }
     }
-}
+

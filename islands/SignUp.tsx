@@ -16,8 +16,7 @@ const SignUp: FunctionComponent = () => {
 
   return(
     <div>
-      
-  
+
       <form method="POST" action="/add" class="formulario">
       <h1>Create your account</h1>
         <input

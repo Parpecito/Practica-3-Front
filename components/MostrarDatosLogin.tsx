@@ -28,12 +28,15 @@ const MostrarDatosUsuarios: FunctionComponent<UsuarioProps> =(props)=>{
             <span>Comentarios: {comments.map((comment)=>{
                 return(
                     <div>
-                        <span>{comment.user} dice: {comment.message}</span>
+                        <p class="coment">{comment.user} va a decir {comment.message}</p>
+                        <br/>
                     </div>
                 )
             })}</span>
-            <a href="/AnadirComentarios" >Añadir Comentario a otras personas</a>
-            <a href="/" >Back</a>
+            <a href="/AnadirComentarios" >Añadir Comentario </a>
+            <a href="/DeleteCommentsRuta"> Eliminar Comentarios</a>
+            
+            <a href="/" >Volver todos los personajes</a>
         </div>
     )
 }
