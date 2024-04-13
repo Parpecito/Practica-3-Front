@@ -22,7 +22,7 @@ export const handler: Handlers={
         if(!response){
             return new Response("Error al eliminar el comentario", {status:500});
         }
-        return new Response("", {status:303, headers:{Location:`/paginaUnica/${name}`}});
+        return new Response("", {status:303, headers:{Location:`/personaje/${name}`}});
     }
 }
 

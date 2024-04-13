@@ -14,6 +14,7 @@ import * as $index from "./routes/index.tsx";
 import * as $loginRuta from "./routes/loginRuta.tsx";
 import * as $login_name_ from "./routes/login/[name].tsx";
 import * as $paginaUnica_name_ from "./routes/paginaUnica/[name].tsx";
+import * as $personaje_name_ from "./routes/personaje/[name].tsx";
 import * as $searchHobbies from "./routes/searchHobbies.tsx";
 import * as $searchNombre from "./routes/searchNombre.tsx";
 import * as $DeleteComments from "./islands/DeleteComments.tsx";
@@ -38,6 +39,7 @@ const manifest = {
     "./routes/loginRuta.tsx": $loginRuta,
     "./routes/login/[name].tsx": $login_name_,
     "./routes/paginaUnica/[name].tsx": $paginaUnica_name_,
+    "./routes/personaje/[name].tsx": $personaje_name_,
     "./routes/searchHobbies.tsx": $searchHobbies,
     "./routes/searchNombre.tsx": $searchNombre,
   },

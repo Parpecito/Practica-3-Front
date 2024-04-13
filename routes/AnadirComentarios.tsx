@@ -34,7 +34,7 @@ export const handler: Handlers = {
       
       return new Response("", {
         status: 303,
-        headers: { Location: `paginaUnica/${name}` },
+        headers: { Location: `personaje/${name}` },
       });
     } catch (error) {
       return new Response("Error al añadir el comentario", { status: 500 });

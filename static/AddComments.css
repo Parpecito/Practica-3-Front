@@ -31,7 +31,7 @@
 
 @media only screen and (max-width: 600px){
     .addComments{
-        width: 50%;
+        width: 80%;
         margin: 0 auto;
         border: 7px solid aquamarine;
         padding: 60px;
