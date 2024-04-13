@@ -4,9 +4,7 @@
 
 import * as $AnadirComentarios from "./routes/AnadirComentarios.tsx";
 import * as $DeleteCommentsRuta from "./routes/DeleteCommentsRuta.tsx";
-import * as $FilterRoute from "./routes/FilterRoute.tsx";
 import * as $FiltrarNombreRuta from "./routes/FiltrarNombreRuta.tsx";
-import * as $RutaFiltrado from "./routes/RutaFiltrado.tsx";
 import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
 import * as $_layout from "./routes/_layout.tsx";
@@ -20,7 +18,6 @@ import * as $searchHobbies from "./routes/searchHobbies.tsx";
 import * as $searchNombre from "./routes/searchNombre.tsx";
 import * as $DeleteComments from "./islands/DeleteComments.tsx";
 import * as $DeleteUser from "./islands/DeleteUser.tsx";
-import * as $Filter from "./islands/Filter.tsx";
 import * as $Login from "./islands/Login.tsx";
 import * as $PostComments from "./islands/PostComments.tsx";
 import * as $SearchName from "./islands/SearchName.tsx";
@@ -31,9 +28,7 @@ const manifest = {
   routes: {
     "./routes/AnadirComentarios.tsx": $AnadirComentarios,
     "./routes/DeleteCommentsRuta.tsx": $DeleteCommentsRuta,
-    "./routes/FilterRoute.tsx": $FilterRoute,
     "./routes/FiltrarNombreRuta.tsx": $FiltrarNombreRuta,
-    "./routes/RutaFiltrado.tsx": $RutaFiltrado,
     "./routes/_404.tsx": $_404,
     "./routes/_app.tsx": $_app,
     "./routes/_layout.tsx": $_layout,
@@ -49,7 +44,6 @@ const manifest = {
   islands: {
     "./islands/DeleteComments.tsx": $DeleteComments,
     "./islands/DeleteUser.tsx": $DeleteUser,
-    "./islands/Filter.tsx": $Filter,
     "./islands/Login.tsx": $Login,
     "./islands/PostComments.tsx": $PostComments,
     "./islands/SearchName.tsx": $SearchName,

@@ -37,6 +37,8 @@ const MostrarDatosUsuarios: FunctionComponent<UsuarioProps> =(props)=>{
             <a href="/DeleteCommentsRuta"> Eliminar Comentarios</a>
             
             <a href="/" >Volver todos los personajes</a>
+            <br/>
+            <br></br>
         </div>
     )
 }

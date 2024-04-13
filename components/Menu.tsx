@@ -17,19 +17,14 @@ const Menu: FunctionComponent=()=>{
             <a href="/deleteUsuarioRuta">
                 Delete User
             </a>
-            <a href="/RutaFiltrado">
-                Filtro
+            <a href="/FiltrarNombreRuta">
+                SearchName
+            </a>
+            <a href="/searchHobbies">
+                List Hobbies
             </a>
     
         </div>
     )
 }
 export default Menu;
-/*
-<a href="/FiltrarNombreRuta">
-                SearchName
-            </a>
-            <a href="/searchHobbies">
-                List Hobbies
-            </a>
-            */
